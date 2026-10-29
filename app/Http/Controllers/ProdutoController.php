@@ -11,4 +11,10 @@ class ProdutoController extends Controller
     echo 'ok';
    }
 
+
+   public function show($id)
+   {
+    echo 'o di é: '. $id;
+   }
+
 }
