@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Str;
 use Pdo\Mysql;
+use Illuminate\Database\DBAL\TimestampType;
 
 return [
 
@@ -181,4 +182,5 @@ return [
 
     ],
 
+    
 ];
