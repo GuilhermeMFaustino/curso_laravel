@@ -19,7 +19,7 @@ class ProdutoController extends Controller
         $nome = "Guilherme";
         $idade = 28;
 
-        return view('news', ['nome' => $nome, 'idade' => $idade]);
+        return view('news', compact('nome', 'idade'));
     }
 
     /**
