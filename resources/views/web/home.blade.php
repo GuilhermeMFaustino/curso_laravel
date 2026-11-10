@@ -16,4 +16,12 @@
     {{-- valor padrao --}}
 
     {{ $teste ?? 'padrao' }}
+
+
+
+    @if($nome == 'Guilhersme')
+        true
+        @else
+        false
+    @endif
 @endsection
