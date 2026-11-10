@@ -5,9 +5,13 @@
 @section('content')
 
 {{-- esturtura de repetição --}}
+@php
+$i = 0;
+@endphp
 
-@for ($i = 0; $i <=10; $i++ )
- valor {{ $i }}
-@endfor
+@while ($i <= 10)
+{{ $i }}
+@php $i++ @endphp
+@endwhile
 
 @endsection
