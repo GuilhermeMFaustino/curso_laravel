@@ -11,4 +11,9 @@
     {{-- operador ternario --}}
 
     {{ isset($nome) ? 'existe' : 'nao existe' }}
+
+
+    {{-- valor padrao --}}
+
+    {{ $teste ?? 'padrao' }}
 @endsection
